@@ -3,7 +3,7 @@
 @section('content')
 <h3>Create Albums</h3>
 {!! Form::open(['action'=>'AlbumsController@store','method'=>'POST','enctype'=>'multipart/form-data']) !!}
-{{Form::text('name','',['placeholder'=>'Album Description'])}}
+{{Form::text('name','',['placeholder'=>'Album Title'])}}
 {{Form::textarea('description','',['placeholder'=>'Album Description'])}}
 {{Form::file('cover_image')}}
 {{Form::submit('submit')}}

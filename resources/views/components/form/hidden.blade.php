@@ -1,1 +1,1 @@
-{{Form::hidden($name,$value,$attributes)}}
+{{Form::hidden($name, $value, $attributes)}}
